@@ -1,0 +1,6 @@
+Pada bagian atas website terdapat navigasi yang berisikan logo beserta list dan tombol daftar/masuk yang digabung dalam 1 pembungkus. 
+Pada bagian navigasi tersebut menggunakan layout dengan display flex dan untuk jaraknya menggunakan justify-content: space-beetwen . 
+untuk background navigasi ini menggunakan background transparant
+
+Lalu pada bagian bawah terdapat judul dan beberapa tulisan beserta CTA dan testimoni yang diposisikan di sebelah kiri dan gambar pada posisi kanan, pada bagian ini layout dilakukan dengan display flex justify-content space-beetwen 
+Pada bagian judul beserta isinya dilakukan pembungkusan tersendiri dan dilakukan diterapkan layout display flex dengan flex-direction column
