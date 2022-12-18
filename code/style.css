@@ -66,6 +66,10 @@ body {
   transition: 0.3s ease;
 }
 
+.btn-masuk-daftar {
+  display: flex;
+}
+
 .btn-daftar {
   background-color: rgb(255, 255, 255);
   color: rgb(42, 186, 114);
@@ -102,6 +106,16 @@ body {
 
 .title {
   width: 50%;
+}
+
+.title .walau {
+  font-weight: 800;
+  color: rgb(16, 160, 237);
+}
+
+.title .beda {
+  font-weight: 800;
+  color: rgb(240, 49, 49);
 }
 
 footer {
