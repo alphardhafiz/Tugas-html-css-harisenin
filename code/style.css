@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: rgb(42, 186, 114);
+  background-color: rgb(237, 237, 237);
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+}
+
+.header {
+  padding: 5px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 8px 1px rgba(84, 74, 84, 1);
+}
+
+.header h1 {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.header h1:hover {
+  transform: scale(1.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul li {
+  list-style: none;
+  margin: 0 30px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.nav ul li:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-daftar {
+  background-color: rgb(255, 255, 255);
+  color: rgb(42, 186, 114);
+  border: 1px solid rgb(42, 186, 114);
+}
+.btn-daftar:hover {
+  background-color: rgb(42, 186, 114);
+  color: rgb(255, 255, 255);
+}
+.btn-masuk,
+.btn-cta {
+  background-color: rgb(42, 186, 114);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+.btn-masuk:hover,
+.btn-cta:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(42, 186, 114);
+  border: 1px solid rgb(42, 186, 114);
+}
+
+.btn-cta {
+  margin: 40px 0;
+}
+
+.main {
+  padding: 5px 100px;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  width: 50%;
+}
+
+footer {
+  background-color: rgb(42, 186, 114);
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  bottom: 0;
+}
