@@ -18,8 +18,8 @@
             <li>Corporate</li>
           </ul>
           <div class="btn-masuk-daftar">
-            <button class="btn btn-daftar">Daftar</button>
-            <button class="btn btn-masuk">Masuk</button>
+            <button id="btn-form-daftar" class="btn btn-daftar">Daftar</button>
+            <button id="btn-form-masuk" class="btn btn-masuk">Masuk</button>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@
         <div class="title">
           <h2>
             Raih Karir Impian <br /><span class="walau">WALAU</span>
-            <span class="beda">BEDA JURUSAN</span>
+            <span class="beda"></span>
           </h2>
           <p>
             Kuasai skill dan dapatkan pekerjaan impianmu. Sudah 3385 alumni
@@ -44,5 +44,36 @@
 
       <footer>&copy; Copyright 2022 Alphard Hafiz Buci</footer>
     </div>
+    <div id="masuk" class="masuk">
+      <div id="kosong-masuk" class="kosong"></div>
+      <div class="form-masuk">
+        <form action="">
+          <h3>SILAHKAN MASUK</h3>
+          <label for="username-masuk">Username</label>
+          <input type="text" id="username-masuk" />
+          <label for="password-masuk">Password</label>
+          <input type="password" id="password" />
+          <button id="btn-masuk-data" class="btn btn-daftar">Masuk</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="daftar" class="daftar">
+      <div id="kosong-daftar" class="kosong"></div>
+      <div class="form-daftar">
+        <form action="">
+          <h3>SILAHKAN DAFTAR</h3>
+          <label for="username-daftar">Username</label>
+          <input type="text" id="username-daftar" />
+          <label for="email-daftar">Email</label>
+          <input type="email" id="email-daftar" />
+          <label for="password-daftar">Password</label>
+          <input type="password" id="password" />
+          <button id="btn-daftar-data" class="btn btn-daftar">Masuk</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
